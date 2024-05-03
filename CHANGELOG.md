@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.5 (03-05-2024)
+
+Await for asynchronous methods to finish in beforeMethods/afterMethods calls
+
 ## v3.0.4 UNRELEASED
 
 Minimum Meteor version is v1.12.1

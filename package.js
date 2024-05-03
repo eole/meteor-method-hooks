@@ -1,12 +1,13 @@
 /**
  * Inspired by https://github.com/hitchcott/meteor-method-hooks (MIT License)
+ * Forked from https://github.com/Meteor-Community-Packages/meteor-method-hooks (MIT License)
  */
 
 Package.describe({
-  name: 'seba:method-hooks',
+  name: 'eoleteam:method-hooks',
   summary: 'Provides before/after hooks for Meteor methods',
-  version: '3.0.4',
-  git: 'https://github.com/Meteor-Community-Packages/meteor-method-hooks',
+  version: '3.0.5',
+  git: 'https://github.com/eole/meteor-method-hooks',
 });
 
 Package.onUse(function definePackage(api) {

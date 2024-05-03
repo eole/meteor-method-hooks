@@ -1,6 +1,6 @@
 {
   "name": "meteor-method-hooks",
-  "version": "3.0.2",
+  "version": "3.0.5",
   "description": "Provides before/after hooks for Meteor methods",
   "author": {
     "name": "Seba Kerckhof",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Meteor-Community-Packages/meteor-method-hooks/meteor-method-hooks.git"
+    "url": "https://github.com/eole/meteor-method-hooks.git"
   },
   "bugs": {
     "url": "https://github.com/Meteor-Community-Packages/meteor-method-hooks/issues"

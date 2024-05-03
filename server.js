@@ -15,7 +15,7 @@ function wrap(methodName) {
     }
 
     for (const beforeFn of beforeFns) {
-      if (beforeFn.apply(this, args) === false) {
+      if (Promise.await(beforeFn.apply(this, args)) === false) {
         return false;
       }
     }
@@ -27,7 +27,7 @@ function wrap(methodName) {
     }
 
     for (const afterFn of afterFns) {
-      try { afterFn.apply(this, args); } catch (error) { /* */ }
+      try { Promise.await(afterFn.apply(this, args)); } catch (error) { /* */ }
     }
 
     if (this.error) {
